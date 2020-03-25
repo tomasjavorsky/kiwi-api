@@ -45,7 +45,6 @@ const wordResponder = (req, res) => {
         }else{ 
             console.log(wordArray.length-numberOfWords)
             fixedOffset = wordArray.length-numberOfWords;
-            console.log(fixedOffset)
         }
     }
     return wordArray.slice(fixedOffset,fixedOffset+numberOfWords);;
